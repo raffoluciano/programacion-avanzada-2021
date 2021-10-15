@@ -10,7 +10,9 @@ cache:
 deploy:
   provider: pages
   skip_cleanup: true
+  edge: true
   github_token: $github_token
-  local_dir: build
+  local_dir: TP1-2021
+  commit_message: "Deploy Release"
   on:
     branch: master  
