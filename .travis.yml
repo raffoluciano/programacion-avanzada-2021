@@ -12,3 +12,6 @@ deploy:
   commit_message: "Deploy Release"
   on:
     branch: master  
+
+script:
+  - npm run build
