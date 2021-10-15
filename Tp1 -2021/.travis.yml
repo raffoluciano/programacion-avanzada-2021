@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - "12"
 
-# cache:
-#   directories:
-#   - TP1-2021
+cache:
+  directories:
+  - TP1-2021
 
 deploy:
   provider: pages
